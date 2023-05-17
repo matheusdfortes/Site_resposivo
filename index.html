@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Mega Store</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="menu">
+                <div class="bloco1">
+                    <a href="./index.html">Mega Store</a>
+                    <div class="menu-hamburguer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bloco2">
+                    <a href="./carrinho.html">
+                        <img src="./imagens/carrinho.png" alt="carrinho">
+                    </a>
+                </div>
+            </div>
+        </div>
+            <nav>
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a href="#sobre">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#produtos">Produtos</a>
+                        </li>
+                    </ul>
+                    <div class="clear-left"></div>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section class="sobre" id="sobre">
+                <img src="./imagens/loja.jpg" alt="loja">
+                <div class="descricao">
+                    <h2>Sobre a Loja</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus officia veniam fugiat tempora, architecto, laborum saepe debitis repellat quibusdam eius odit perspiciatis numquam quae rerum quasi expedita ducimus, ratione voluptatum.</p><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ab vero distinctio, accusamus iste modi eaque perferendis. Vel, voluptates et recusandae rem, excepturi corrupti non voluptatum soluta aspernatur quam nobis.</p>
+                </div>
+            </section>
+            <section>
+                <h2>Produtos</h2>
+                <div class="produtos" id="produtos">
+                    <div class="produto">
+                        <img src="./imagens/disco1.jpg">
+                        <h3>Album de Outono</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, consequatur omnis, in animi recusandae ipsum eius nesciunt,</p>
+                        <button type="button" id="addCar1">Adicionar ao carrinho</button>
+                    </div>
+                    <div class="produto">
+                        <img src="./imagens/disco2.jpg">
+                        <h3>Album de Inverno</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, consequatur omnis, in animi recusandae ipsum eius nesciunt,</p>
+                        <button type="button" id="addCar2">Adicionar ao carrinho</button>
+                    </div>
+                    <div class="produto">
+                        <img src="./imagens/disco3.jpg">
+                        <h3>Album de Primavera</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, consequatur omnis, in animi recusandae ipsum eius nesciunt,</p>
+                        <button type="button" id="addCar3">Adicionar ao carrinho</button>
+                    </div>
+                    <div class="produto">
+                        <img src="./imagens/disco4.jpg">
+                        <h3>Album de Verão</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, consequatur omnis, in animi recusandae ipsum eius nesciunt,</p>
+                        <button type="button" id="addCar4">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Mega Store - Todos os direitos reservados - 2022
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
